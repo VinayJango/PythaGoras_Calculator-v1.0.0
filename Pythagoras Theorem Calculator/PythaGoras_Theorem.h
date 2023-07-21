@@ -8,6 +8,10 @@ void App_Banner()
 }
 /* Pythagoras Theorem is (ONE SIDE SQR) + (OTHER SIDE SQR) = (HYPO)*/
 float v1, v2, Hypo;
+if (user_input == "1")
+{
+	return Calculate_Hypo();
+}
 void Calculate_Hypo()
 {
 	while ((v1 > 0) && (v2 > 0)); // While The Given Value 1 and 2 is Greater Than Zero
