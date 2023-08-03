@@ -26,6 +26,15 @@ void Calculate_Hypo()
 	}
 	
 }
+void THROW_ERROR()
+{
+	cout << "ERROR INVALID INPUT GIVEN !"<<endl;
+}
+
+if (user_input == "")
+{
+	return THROW_ERROR();
+}
 
 
 
